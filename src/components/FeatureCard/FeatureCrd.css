@@ -1,0 +1,42 @@
+@media screen and(max-width:500px) {
+    .feature-container{
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .feature-card-img{
+   
+        height: 30px;
+        display: block;
+        margin: 10px auto;
+    }
+    .feature-card
+{ 
+    background-color: #fff;
+    width: 200px;
+    padding: 20px ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #373A40;
+    cursor: pointer;
+}
+    
+}
+.feature-card
+{ 
+    margin-top: 20px;
+    width: 200px;
+    padding: 20px ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #373A40;
+    cursor: pointer;
+}
+.feature-card-img{
+   
+    height: 50px;
+    display: block;
+    margin: 20px auto;
+}
+.feature-text
+{
+    font-size: 15px;
+    color: #686D76;
+}

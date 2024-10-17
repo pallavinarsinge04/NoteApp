@@ -1,0 +1,28 @@
+.button-container
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+.feature-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+@media screen and(max-width:500px) {
+    .app-title{
+        font-size: 20px;
+    }
+    .tagline-highlight{
+        display: none;
+    }
+    .button-container{
+        background-color: #fff;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
